@@ -17,7 +17,7 @@
 
     <properties>
         <mybatis-spring-boot>1.2.0</mybatis-spring-boot>
-        <mysql-connector>5.1.39</mysql-connector>
+        <mysql-connector>8.0.15</mysql-connector>
     </properties>
 
 
@@ -77,14 +77,14 @@
                     <overwrite>true</overwrite>
                 </configuration>
 
-                <dependencies>
-                    <!--  引入 mysql 的 JDBC 驱动，否则会报错找不到驱动  -->
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>5.1.48</version>
-                    </dependency>
-                </dependencies>
+<!--                <dependencies>-->
+<!--                    &lt;!&ndash;  引入 mysql 的 JDBC 驱动，否则会报错找不到驱动  &ndash;&gt;-->
+<!--                    <dependency>-->
+<!--                        <groupId>mysql</groupId>-->
+<!--                        <artifactId>mysql-connector-java</artifactId>-->
+<!--                        <version>5.1.48</version>-->
+<!--                    </dependency>-->
+<!--                </dependencies>-->
 
             </plugin>
         </plugins>
