@@ -1,4 +1,4 @@
-package com.example.springboot1.Mapper;
+package com.example.springboot1.mapper;
 
 import com.example.springboot1.po.RunoobTbl;
 

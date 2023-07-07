@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.springboot1.Mapper.RunoobTblMapper">
+<mapper namespace="com.example.springboot1.mapper.RunoobTblMapper">
   <resultMap id="BaseResultMap" type="com.example.springboot1.po.RunoobTbl">
     <id column="runoob_id" jdbcType="INTEGER" property="runoobId" />
     <result column="runoob_title" jdbcType="VARCHAR" property="runoobTitle" />

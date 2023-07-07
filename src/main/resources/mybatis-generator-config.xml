@@ -70,7 +70,7 @@
         </sqlMapGenerator>
 
         <!-- 生成 XxxMapper.java 接口-->
-        <javaClientGenerator targetPackage="com.example.springboot1.Mapper" targetProject="src/main/java" type="XMLMAPPER">
+        <javaClientGenerator targetPackage="com.example.springboot1.mapper" targetProject="src/main/java" type="XMLMAPPER">
             <!--<property name="enableSubPackages" value="false"/>-->
         </javaClientGenerator>
 
