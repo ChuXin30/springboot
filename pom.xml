@@ -18,6 +18,7 @@
     <properties>
         <mybatis-spring-boot>1.2.0</mybatis-spring-boot>
         <mysql-connector>8.0.15</mysql-connector>
+        <druid>1.0.18</druid>
     </properties>
 
 
@@ -54,6 +55,13 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+        </dependency>
+
+        <!-- Druid 数据连接池依赖 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid}</version>
         </dependency>
 
     </dependencies>
