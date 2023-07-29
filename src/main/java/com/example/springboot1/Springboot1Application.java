@@ -26,6 +26,8 @@ import org.springframework.context.annotation.ComponentScan;
 public class Springboot1Application {
 
 
+
+
     public static void main(String[] args) {
         //以为是启动了一个方法，没想到启动了一个服务
         SpringApplication.run(Springboot1Application.class, args);
