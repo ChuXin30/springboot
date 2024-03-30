@@ -32,6 +32,9 @@ public class Springboot1Application {
         SpringApplication.run(Springboot1Application.class, args);
     }
 
+    @Autowired
+    private Dog dog;
+
 
 
 }
